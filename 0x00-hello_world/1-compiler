@@ -1,2 +1,0 @@
-#!/bin/bash
-gcc $CFILE -C -0 c
