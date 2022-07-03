@@ -6,8 +6,11 @@
   */
 int main(void)
 {
-	putchar("Lowercase characters \n");
- for (ch = 'a'; ch <= 'z'; ch++)
-putchar("%c ", ch);
+char ch = 'a';
+
+    putchar("Lowercase English Alphabets:\n");
+    while(ch <= 'z')
+        putchar("%c ", ch);
+        ch++;
 return (0);
 }
