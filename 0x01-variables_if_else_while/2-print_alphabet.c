@@ -5,14 +5,10 @@
   * Return: Always (Success)
   */
 int main(void)
+char ch
 {
-	char ch (a)
-while (ch <= z);
-       putchar("%c ch/n");
-ch++;
-char ch (A)
-while (ch <= Z);
-       putchar("%c ch/n");
-ch++;
+	putchar("Lowercase characters \n");
+ for (ch = 'a'; ch <= 'z'; ch++)
+putchar("%c ", ch);
 return (0);
 }
