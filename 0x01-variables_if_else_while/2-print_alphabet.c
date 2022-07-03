@@ -1,15 +1,12 @@
 #include <stdio.h>
-/**
-  * main - Entry point 
-  *
-  * Return: Always 0 (Success)
-  */
-int main(void)
-{
 char ch = 'a';
-    putchar("Lowercase English Alphabets:\n");
+
+    printf("Lowercase English Alphabets:\n");
     while(ch <= 'z')
-        putchar("%c ", ch);
-        ch++;
-return (0);
+    {
+char c;
+for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+putchar('\n');
+	return (0);
 }
