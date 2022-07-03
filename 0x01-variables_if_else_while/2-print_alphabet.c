@@ -5,8 +5,9 @@
   * Return: Always (Success)
   */
 int main(void)
-char ch
 {
+char ch
+
 	putchar("Lowercase characters \n");
  for (ch = 'a'; ch <= 'z'; ch++)
 putchar("%c ", ch);
