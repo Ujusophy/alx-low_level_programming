@@ -1,10 +1,12 @@
 #include <stdio.h>
-char ch = 'a';
-
-    printf("Lowercase English Alphabets:\n");
-    while(ch <= 'z')
-    {
-char c;
+/**
+ * main - Prints the alphabetic
+ *
+ * Return: Always (Success)
+ */
+int main(void)
+{
+	char c;
 for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 putchar('\n');
