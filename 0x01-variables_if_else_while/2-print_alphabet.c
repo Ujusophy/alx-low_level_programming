@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
-  * main - Prints the numbers from 00 to 99
+  * main - Entry point 
   *
-  * Return: Always (Success)
+  * Return: Always 0 (Success)
   */
 int main(void)
 {
 char ch = 'a';
-
     putchar("Lowercase English Alphabets:\n");
     while(ch <= 'z')
         putchar("%c ", ch);
