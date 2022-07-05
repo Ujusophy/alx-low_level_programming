@@ -1,9 +1,9 @@
 /**
 * file: 1-alphabet.c
 *
-* Auth Njoku Ujunwa
+* Auth Ujusophy
 */
-#include	<holberton.h>
+#include	<main.h>
 /**
  * main	-	check	the	code for holberton school students
  *
