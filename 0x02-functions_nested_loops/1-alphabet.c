@@ -1,14 +1,19 @@
-#include	<stdio.h>
 /**
- * main	-	check	the	code
+* file: 1-alphabet.c
+*
+* Auth Ujusophy
+*/
+#include	"main.h"
+/**
+ * main	-	check	the	code for holberton school students
  *
  * Return:	Always	0.
  */
-int	main(void)
+void print_alphabet(void)
 {
 	char	c;
 	for	(c	=	'a';	c	<=	'z';	c++)
-		putchar(c)
-			putchar('\n');
+		_putchar(c);
+			_putchar('\n');
 	return	(0);
 }
