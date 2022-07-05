@@ -3,7 +3,7 @@
 *
 * Auth Ujusophy
 */
-#include	<main.h>
+#include	"main.h"
 /**
  * main	-	check	the	code for holberton school students
  *
