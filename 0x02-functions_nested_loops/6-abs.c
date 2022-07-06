@@ -1,7 +1,7 @@
-/**
- * File: 6-abs.c
- * Auth: Brennan D Baraban
- */
+/*
+*File: 6-abs.c
+*Auth: Ujusophy
+*/
 
 #include "main.h"
 
