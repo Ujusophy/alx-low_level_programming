@@ -7,7 +7,7 @@
 
 /**
  * int _islower	-	check	for	lowercase	character
- * Return	1	if	lowercase
+ * Return	1	if	c is lowercase
  *
  * Return	0	if	otherwise
  */
