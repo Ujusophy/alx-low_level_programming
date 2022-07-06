@@ -1,21 +1,27 @@
-/**
-* File: 8-24_hours.c
-*
-*Auth Ujusophy
+/*
+*File: 8-24_hours.c
+*Auth: Ujusophy
 */
 
 #include "main.h"
 /**
-* void jack_bauer - prints every minute of jack Bauer day
-* jack Bauer starting from 0:00 to 23:59.
-*/
+ * jack_bauer - Prints every minute of the day of
+ *              Jack Bauer, starting from 00:00 to 23:59.
+ */
 void jack_bauer(void)
 {
-int hrs, min;
-for (hrs = 0; hrs <= 23; hrs++)
-_putchar('hrs');
-{
-for (min = 0; min <= 59; min++)
-_putchar('min');
-}
+	int hour, minute;
+
+	for (hour = 0; hour <= 23; hour++)
+	{
+		for (minute = 0; minute <= 59; minute++)
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0');
+			_putchar('\n');
+		}
+	}
 }
