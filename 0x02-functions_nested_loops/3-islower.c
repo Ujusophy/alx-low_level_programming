@@ -7,16 +7,15 @@
 
 /**
  * int _islower	-	check	for	lowercase	character
- * Return	1	if	lowercase
+ * Return	1	if	c is lowercase
  *
  * Return	0	if	otherwise
  */
 int _islower(int c)
 {
-	char	c;
 
-	if	(c	=	'a';	c	<=	'z';	c++)
+	if	(c >= 97 && c <= 122)
 		return	(1);
-	else	(c	=	'A';	c	<=	'Z';	c++)
+	else
 		return	(0);
 }
