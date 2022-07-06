@@ -11,11 +11,11 @@
 */
 void jack_bauer(void)
 {
-int hour, minute;
-for (hour = 0; hour <= 23; hour++)
-_putchar('hour');
+int hrs, min;
+for (hrs = 0; hr <= 23; hrs++)
+_putchar('hrs');
 {
-for (minute = 0; minute <= 59; minute++)
-_putchar('minute');
+for (min = 0; min <= 59; min++)
+_putchar('min');
 }
 }
