@@ -1,21 +1,20 @@
 /*
- * File:	int _isalpha
- *
- *Auth	Ujusophy
- */
-#include	"main.h"
+*File: is the function lowercase or uppercase
+*Auth: Ujusophy
+*/
 
+#include "main.h"
 /**
- * int _isalpha	-	check	for	alphabetic	character
- * @c: the character to be checked
-* Return	1	if	c	is	a	letter
- *
- * Return	0	if	otherwise
- */
+*_isalpha -check if a character is lowercase or uppercase.
+*@c: The character to be checked.
+*
+* Return: 1 if character is lowercase or uppercase, or otherwise.
+*/
+
 int _isalpha(int c)
 {
-	if	(c	>=	65	&&	c	<=	122)
-		return	(1);
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+		return (1);
 	else
-		return	(0);
+		return (0);
 }
