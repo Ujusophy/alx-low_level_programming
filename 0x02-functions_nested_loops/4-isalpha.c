@@ -7,7 +7,8 @@
 
 /**
  * int _isalpha	-	check	for	alphabetic	character
- * Return	1	if	c	is	a	letter
+ * @c: the character to be checked
+* Return	1	if	c	is	a	letter
  *
  * Return	0	if	otherwise
  */
