@@ -5,13 +5,12 @@
 */
 #include	"main.h"
 /**
- * main	-	check	the	code for holberton school students
- *
- * Return:	Always	0.
+ * print_alphabet-prints alphabet in lowercase
  */
 void print_alphabet(void)
 {
 	char	c;
+
 	for	(c	=	'a';	c	<=	'z';	c++)
 		_putchar(c);
 			_putchar('\n');
