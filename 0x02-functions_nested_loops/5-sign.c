@@ -10,6 +10,8 @@
  * Return 1 and print + if n is greater than zero
  * Return 0 and print 0 if n is zero
  * Return -1 and print - if n is less than zero
+*
+*@n: the character to be checked
  */
 int print_sign(int n)
 {
