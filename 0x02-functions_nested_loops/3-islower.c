@@ -13,10 +13,9 @@
  */
 int _islower(int c)
 {
-	char	lower;
 
-	if	(lower	=	'a';	lower	<=	'z';	lower++)
+	if	(c	=	'a';	lower	<=	'z'; c++)
 		return	(1);
-	else	(lower	=	'A';	lower	<=	'Z';	lower++)
+	else
 		return	(0);
 }
