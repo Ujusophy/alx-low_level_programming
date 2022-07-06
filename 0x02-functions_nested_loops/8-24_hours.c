@@ -12,7 +12,7 @@
 void jack_bauer(void)
 {
 int hrs, min;
-for (hrs = 0; hr <= 23; hrs++)
+for (hrs = 0; hrs <= 23; hrs++)
 _putchar('hrs');
 {
 for (min = 0; min <= 59; min++)
