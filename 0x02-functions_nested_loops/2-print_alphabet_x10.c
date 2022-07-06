@@ -7,7 +7,7 @@
  * main	-	check	code
  * Return:	Always 0.
  */
-int main ()
+void print_alphabet_x10(void);
 {
 	int	count	=	0;
 	char	letter;
@@ -17,5 +17,4 @@ int main ()
 			_putchar(letter);
 		_putchar('\n');
 	}
-	return	(0);
 }
