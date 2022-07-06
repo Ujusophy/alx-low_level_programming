@@ -1,4 +1,4 @@
-/**
+/*
  * File:	int _isalpha
  *
  *Auth	Ujusophy
