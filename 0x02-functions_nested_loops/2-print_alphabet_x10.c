@@ -5,9 +5,9 @@
 #include	"main.h"
 /**
  * main	-	check	code
- * Return:	0.
+ * Return:	Always 0.
  */
-void	print_alphabet_x10(void)
+int main ()
 {
 	int	count	=	0;
 	char	letter;
