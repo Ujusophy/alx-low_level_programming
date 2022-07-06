@@ -6,7 +6,7 @@
 #include	"main.h"
 
 /**
- * print_alphabet 
+*print_alphabet 
  * prints alphabet in lowercase
  * followed by a new line.
  */
