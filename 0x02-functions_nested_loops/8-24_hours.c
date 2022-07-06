@@ -6,7 +6,8 @@
 
 #include "main.h"
 /**
-* void jack_bauer - prints every minute of jack Bauer day, starting from 0:00 to 23:59
+* void jack_bauer - prints every minute of jack Bauer day
+* jack Bauer starting from 0:00 to 23:59.
 */
 void jack_bauer(void)
 {
