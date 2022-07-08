@@ -1,4 +1,4 @@
-/**
+/*
 * file: 1-alphabet.c
 *
 * Auth Ujusophy
