@@ -1,21 +1,17 @@
-#include	"main.h"
+#include "main.h"
 
 /**
- * _memset	-	function
- *
- * @n:	byte	of	the	memoryarea
- *
- * @s:	pointer
- *
- * @b:	variable
- *
- * Return:	to	the	pointer	@s
+ * _memset - Entry point
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: bytes
+ * Return: Always 0 (Success)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned	int	=	i
-		i	=	0
-		for(i	<	n	,	i++)
-			s[i]	=	b;
-				return	(s);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		s[i] = b;
+	return (s);
 }
